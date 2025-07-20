@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(./fonts/Norse-Bold/Norse-Bold.otf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.bg {
+
+    width: auto;
+    height: 140vh;
+    max-width: 500px;
+    max-height: 130%;
+    object-fit: cover;
+}
+
+.left {
+    position: relative;
+
+}
+
+.tag {
+    box-sizing: border-box;
+    position: absolute;
+    top: 250px;
+    display: flex;
+    background-color: rgb(1, 1, 1, .4);
+    width: 500px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag>img {
+    width: 90px;
+}
+
+.tag>p {
+
+    font-family: "Norse-Bold";
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+}
+
+.credit {
+
+    position: absolute;
+    bottom: 10px;
+    left: 180px;
+    color: rgb(40, 65, 32);
+}
