@@ -9,7 +9,10 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+.container{
+    display: flex;
 
+}
 .bg {
 
     width: auto;
@@ -21,13 +24,12 @@
 
 .left {
     position: relative;
-
 }
 
 .tag {
     box-sizing: border-box;
     position: absolute;
-    top: 250px;
+    top: 200px;
     display: flex;
     background-color: rgb(1, 1, 1, .4);
     width: 500px;
@@ -46,7 +48,6 @@
     color: rgb(255, 255, 255);
     font-size: 90px;
 }
-
 .credit {
 
     position: absolute;
@@ -54,3 +55,20 @@
     left: 180px;
     color: rgb(40, 65, 32);
 }
+.right{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+    background-color: aliceblue;
+    flex-basis: 29vh;
+    padding: 30px;
+    line-height: 1.5em;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 150px;
+    padding-right: 160px;
+}
+
