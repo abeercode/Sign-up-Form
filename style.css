@@ -79,7 +79,7 @@
 
     padding: 40px;
     padding-right: 270px;
-    box-shadow:  0px 2px 5px rgb(1, 1, 1, .2); 
+    box-shadow: 0px 2px 5px rgb(1, 1, 1, .2);
 }
 
 form {
@@ -108,17 +108,49 @@ input {
 }
 
 input:focus {
-    /* box-shadow: 0 0 5px rgb(2, 61, 25);
-  border: 1px solid rgba(81, 203, 238, 1); */
 
     box-shadow: 0 0 5px rgb(236, 176, 64);
-
     border: 1px solid rgba(236, 176, 64, 1);
 }
 
-input[type="password"]:invalid{
+input[type="password"]:invalid {
+
     box-shadow: 0 0 5px rgb(216, 62, 62);
-
     border: 1px solid rgb(207, 80, 80);
+}
 
+.submit {
+    background-color: aliceblue;
+    padding: 28px;
+    flex: 1;
+}
+
+button {
+    /* border-color: rgb(212, 159, 11); */
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(219, 177, 62, .85);
+    color: rgb(255, 255, 255);
+    padding: 10px 24px;
+    margin-bottom: 20px;
+
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 1px 1px 3px rgb(7, 97, 27);
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color: rgb(219, 177, 62, 1.5);
+}
+
+span {
+        text-decoration: none;
+
+}
+a{
+        text-decoration: none;
+            color: rgb(23, 99, 4);
+    font-weight: 600;
 }
